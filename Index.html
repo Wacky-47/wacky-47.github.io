@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Aldair Frausto Meza</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kevin Aldair Frausto Meza</h1>
+        <p>21136 10A IDGS</p>
+    </header>
+    
+    <div class="container">
+        <section class="description">
+            <h2>Datos</h2>
+            <p>A continuación presentare algunos datos destacados:</p>
+            
+            <div class="data-container">
+                <div class="data-card">
+                    <h3>Especialidades</h3>
+                    <p>JavaScrip, C# y Phyton</p>
+                </div>
+                <div class="data-card">
+                    <h3>Proyectos Completados</h3>
+                    <p id="completed-projects">6</p>
+                </div>
+                <div class="data-card">
+                    <h3>Años de Experiencia</h3>
+                    <p id="years-experience">3</p>
+                </div>
+            </div>
+        </section>
+
+    <section class="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi perfil de GitHub:</p>
+            <div style="margin-top: 2rem;">
+                <a href="https://github.com/Wacky-47" class="github-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Ver mi perfil de GitHub
+                </a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+<script>
+        // Datos dinámicos
+        document.addEventListener('DOMContentLoaded', function() {
+            // Simular carga de datos
+            setTimeout(() => {
+                document.getElementById('active-users').textContent = '1,250';
+                document.getElementById('completed-projects').textContent = '89';
+                document.getElementById('years-experience').textContent = '5+';
+            }, 1000);
+        });
+    </script>
+
+</body>
+</html>
